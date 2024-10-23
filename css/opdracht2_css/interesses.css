@@ -1,0 +1,17 @@
+body {
+    background-color: #F0F8FF;
+}
+.navbar_logo {
+    width: 100px;
+}
+.navbar_links {
+    font-size: 24px;
+}
+.navbar_bckgrnd {
+    background-color: #98C1D9;
+    border-radius: 5px;
+    padding: 10px;
+}
+.active_page {
+    font-weight: 600;
+}

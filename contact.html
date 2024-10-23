@@ -1,46 +1,132 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/opdracht2_css/contact.css">
-    <title>Contact</title>
-</head>
-<body>
-    <div class="container">
 
-      <!--nav bar-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="index.html"><img src="" alt=""></a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cv.html">Curriculum Vitae</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ervaringen.html">Ervaringen</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="interesses.html">Interesses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
-              </li>
-            </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Img/favicon.ico" type="image/icon" sizes="16x16">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/opdracht2_css/contact.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navbar_bckgrnd">
+        <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="Logo" class="navbar_logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar_links" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.html">Curriculum Vitae</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ervaringen.html">Ervaringen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="interesses.html">Interesses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active active_page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Inleiding-->
+    <h1 class="text-center Pagina_titel">Contactpagina</h1>
+    <div class="pagina_inleiding">
+      <p>Leuk dat u hier bent! Of u nu vragen hebt over mijn werk, interesse hebt in een samenwerking, of gewoon meer
+        wil weten, ik sta zeker open voor een gesprek!
+        Ik hoor graag van u, of het nu gaat om een nieuw project, advies over webdesign, of een andere manier waarop ik
+        u kan helpen binnen mijn expertise.
+        Aarzel niet om contact op te nemen via het formulier hieronder, of stuur me een bericht via e-mail of telefoon.
+        Ik kijk ernaar uit om van u te horen en samen te ontdekken wat we samen kunnen bereiken!</p>
+    </div>
+
+
+    <!--formulier-->
+
+
+    <div class="container formulier_achtergrond">
+      <form>
+        <div class="row mb-3">
+          <div class="col">
+            <label for="voornaam" class="form-label">Voornaam:</label>
+            <input type="text" class="form-control" name="voornaam" id="voornaam" placeholder="Voornaam.." required>
+          </div>
+          <div class="col">
+            <label for="familienaam" class="form-label">Familienaam:</label>
+            <input type="text" class="form-control" name="familienaam" id="familienaam" placeholder="Familienaam.."
+              required>
           </div>
         </div>
-      </nav>
+
+        <div class="row mb-3">
+          <div class="col-7 formulier_label">
+            <label for="email" class="form-label">E-mail addres:</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp"
+              placeholder="E-mail adres.." required>
+          </div>
+          <div class="col">
+            <div class="col formulier_label">
+              <label for="telefonnummer" class="form-label">Telefoonnummer:</label>
+              <input type="tel" class="form-control" name="telefonnummer" id="telefonnummer"
+                placeholder="Telefoonnummer..">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-6">
+            <label for="onderwerp" class="form-label">Onderwerp:</label>
+            <input type="text" class="form-control" name="onderwerp" id="onderwerp" placeholder="Onderwerp.." required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="bericht" class="form-label">Bericht:</label>
+          <textarea class="form-control" name="bericht" id="bericht" rows="3"  placeholder="Schrijf uw bericht hier.."></textarea>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col">
+            <div class="mb-3 form-check">
+              <label class="form-check-label" for="check1">Check me out</label>
+              <input type="checkbox" class="form-check-input" name="check1" id="check1">
+            </div>
+            <button type="submit" class="btn btn-primary">Verzenden</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
 
 
-    </div>    
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <hr>
+    <!--Footer-->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active active_page">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+    <hr>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

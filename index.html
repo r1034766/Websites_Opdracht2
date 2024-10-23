@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Img/favicon.ico" type="image/icon" sizes="16x16">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/opdracht2_css/index.css">
     <title>Home</title>
@@ -11,16 +12,16 @@
   <div class="container">
 
       <!--nav bar-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid navbar_bckgrnd">
+          <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="Logo" class="navbar_logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="index.html"><img src="img/favicon.ico" alt=""></a>
+          <div class="collapse navbar-collapse navbar_links" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active active_page" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="cv.html">Curriculum Vitae</a>
@@ -39,69 +40,115 @@
         </div>
       </nav>
       
+<!--Welkomstekst-->
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="img/pasfoto.jpg" class="img-fluid float-start" alt="Foto van Kristof">
+    </div>
+    <div class="col">
+        <p class="text-start">Hallo, van harte welkom op mijn portfolio!</p>
+        <p class="text-start">Mijn naam is Kristof Roelants. Ik ben 33 jaar en woon in Westerlo.</p>
+        <p class="text-start">Ik ben in 2013 afgetudeerd als Bachelor Elektromechanica aan de Plantijn Hogeschool in Boom. Hierna ben ik mijn professionele carrière in de wereld van 
+      klimatisatie en HVAC begonnen.</p>
+        <p class="text-start">Ik werk momenteel als storingstechnieker voor de technische dienst van DAF Trucks in Westerlo. Deze interessante job doe ik ondertussen al bijna 5 jaar.
+      Sinds september 2024 ben ik als zelfstandige in bijberoep begonnen. Ik ben hier voornamelijk bezig met het ontwerpen en onderhouden van websites en ik ben daarnaast van plan om een webshop op te starten. Via deze webshop ben ik van plan om producten te verkopen waarmee je je thuiskantoor ergonomischer kan inrichten.</p>
+        <p class="text-start">Naast mijn job ben ik ook nog student bij Thomas More in Geel waar ik de graduaatsopleiding 'Programmeren' volg. Om deze opleiding te kunnen combineren met mijn
+      voltijdse job volg ik deze opleiding via avondschool.</p>
+        <P class="text-start">Als ik van mezelf enkele positieve kanten zou moeten benoemen, zou ik zeggen dat ik redelijk snel nieuwe dingen kan leren. Daarnaast vind ik dat ik goed kan communiceren met collega's en klanten. Verder kan ik goed zelfstandig werken.</P>
+        <p class="text-start">Enkele negatieve kanten zijn onder andere dat ik moeilijker dingen kan delegeren. Ik doe alles liever zelf waardoor een taak mogelijks minder efficiënt wordt uitgevoerd.
+      Een andere negatieve eigenschap die ik soms de kop op steekt, is dat ik snel gefrustreerd raak wanneer iets niet onmiddellijk werkt.</p>
+        <p class="text-start">Het doel van deze website is om mijn professionele ervaringen, mijn hobby's en interesses met u te delen. Deze info kan u op de verschillende pagina's van deze
+      website terugvinden. Indien u vragen heeft of in contact wil komen met mij nodig ik u graag uit om de contactpagina te bezoeken.</p>
+    </div>
+  </div>
+</div>
 
 
+  
+  <!--Cv en ervaringen-->
+<div class="row container_padding justify-content-evenly">
+  <div class="col-sm-5 mb-3 mb-sm-0">
+    <div class="card">
+      <img src="img/Cv.png" class="img-fluid card-img-top" alt="Curriculum Vitae">
+      <div class="card-body">
+        <h5 class="card-title">Wat is mijn professionele achtergrond?</h5>
+        <p>Via deze link komt u bij mijn <a href="curriculum_vitae.html" class="link">Curriculum Vitae</a>. Hier vindt u een gedetailleerd overzicht van mijn professionele vaardigheden en expertise die ik door de jaren heen heb opgebouwd.
+          U leest meer over mijn opleidingen, waaronder mijn Bachelor in Elektromechanica en de verdere opleidingen die mijn technische kennis hebben verrijkt. 
+          Daarnaast ontdek je mijn werkervaring, van mijn rol in de klimatisatiesector tot mijn huidige functie als storingstechnieker bij DAF Trucks, 
+          en mijn zelfstandige activiteiten in webdesign en webshopontwikkeling.</p>
+    
+        <p>Als u geïnteresseerd bent in hoe mijn achtergrond en expertise uw project zou kunnen versterken, nodig ik u van harte uit om verder te lezen en een beter beeld te krijgen van wat ik te bieden heb.
+          Mocht u na het bekijken van mijn CV vragen hebben of in contact willen komen, aarzel dan niet om de contactpagina te bezoeken.</p>
+        <a href="cv.html" class="btn btn-primary">Curriculum Vitae</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-5">
+    <div class="card">
+      <img src="img/Ervaringen.png" class="img-fluid card-img-top" alt="Ervaringen">
+      <div class="card-body">
+        <h5 class="card-title">Hoe ziet mijn werkervaring eruit?</h5>
+        <p>Tijdens mijn carrière heb ik bij verschillende werkgevers gewerkt, wat me de kans gaf om waardevolle vaardigheden op te bouwen en mee te werken aan een breed scala aan interessante projecten. 
+          Elke stap heeft bijgedragen aan mijn groei, zowel professioneel als persoonlijk, en heeft me in staat gesteld om mijn expertise verder te ontwikkelen.</p>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore explicabo magnam odit nostrum corporis voluptatibus commodi praesentium at facilis eum totam veniam aperiam, doloremque iste, suscipit nobis inventore dolorem. Similique!
-    Reprehenderit voluptates veritatis natus explicabo repellendus. Minus est repellendus placeat? Nostrum magni, error dolorem maiores excepturi vel aliquam recusandae voluptates. Iste nulla velit doloremque dolorum, laudantium eligendi natus illum expedita.
-    Cum dolore aut corporis, nulla sit at saepe sunt libero sequi quos eaque illo deleniti, dolores perspiciatis sapiente officia id? Atque, iusto minima laborum asperiores ea officia possimus consequatur veritatis?
-    Saepe doloribus libero expedita unde molestiae perferendis quasi veniam explicabo quisquam sunt odit eveniet eum, sint iusto! Temporibus, necessitatibus rerum eius reprehenderit porro mollitia in ipsum! Reprehenderit iusto voluptate unde!
-    Nemo ea deleniti alias perspiciatis repellat nobis consectetur excepturi esse odio cupiditate et obcaecati, quod quasi, aliquid eligendi, necessitatibus nulla! Distinctio fugiat officia adipisci aut vitae beatae maxime maiores iure!
-    Vitae nihil quae ipsum officia magni odit eos possimus id sint, ex eligendi ipsa maiores reprehenderit officiis iste optio voluptatem exercitationem distinctio asperiores reiciendis necessitatibus praesentium! Deserunt dolor exercitationem sapiente.
-    Officiis error accusantium laboriosam debitis omnis aspernatur vel dolorum recusandae ipsam eum perferendis illum hic odit in dolor nemo odio id repudiandae, quia ipsa corrupti! Quibusdam autem laboriosam recusandae dolore?
-    Maiores voluptatibus, earum nulla eius quos delectus nam nisi ab ea, corporis quasi error doloremque nostrum incidunt voluptates repellendus modi odio nesciunt reprehenderit esse odit aliquid. Delectus, unde. Illum, dolorem?
-    Consequatur ipsam perspiciatis earum alias cupiditate hic repellendus aut laboriosam reiciendis fuga, possimus quas nihil repellat laborum? At tempora odit nostrum beatae laborum repudiandae, dolorum aut ad molestiae! Illum, ratione!
-    Dignissimos ratione quae adipisci excepturi. Cum, labore saepe error, ex consectetur rem esse vero sed omnis cumque quibusdam maiores. Sequi unde id dolore molestiae rerum quia cumque explicabo suscipit excepturi!
-    Voluptates, laboriosam consequuntur asperiores voluptate alias tenetur quaerat ea, atque ullam necessitatibus quasi nesciunt ipsum iste illum cupiditate libero esse praesentium itaque autem veritatis laborum est beatae quae. Vel, dicta!
-    Libero eveniet officiis temporibus commodi enim accusamus consequatur molestias sapiente ab animi. Rem earum quae obcaecati iste, quos quia nulla illum modi recusandae saepe tempora veritatis sunt omnis dolorem sit.
-    Enim deserunt dolore ut. Neque dolore inventore eaque dolorum dicta distinctio optio sed, sapiente aliquid esse hic corrupti vitae nam! Fugiat reiciendis ea qui mollitia id possimus quibusdam optio. Modi?
-    Ullam, laborum. Minima voluptas, nemo unde commodi error iure sapiente assumenda illum voluptates eos corrupti fuga saepe officia, facere eum pariatur corporis exercitationem totam odit fugit. Sequi exercitationem id expedita!
-    Autem delectus consectetur totam a non itaque incidunt quisquam quae! Nam repellat ducimus doloribus nisi libero reprehenderit natus itaque beatae laborum quasi! Enim iure dignissimos nam repellendus veritatis nemo laboriosam.
-    Voluptates, deleniti quaerat? Tenetur illum ad ullam perspiciatis ipsam nulla inventore aliquid voluptatem autem? Dolor qui quos, enim aperiam eligendi exercitationem rerum quas illo, numquam ratione excepturi molestiae sed maxime.
-    Quia saepe aliquam sapiente repellat consequatur, provident a deleniti voluptates at enim accusantium quasi harum aliquid dolor consequuntur unde quam rem corporis sed aspernatur ut praesentium asperiores. Magni, fugiat repudiandae.
-    Doloremque, eligendi! Blanditiis a cumque optio explicabo iure quos voluptates consequuntur sed, nobis sapiente dolor, minus mollitia assumenda et? Sint tempora porro incidunt assumenda? Dignissimos ipsa molestias saepe illo enim!
-    Minima cum assumenda alias, ut nisi nobis ducimus quod molestiae quos quaerat. Itaque, ad animi? Fugiat tenetur sint perspiciatis obcaecati consequatur. Excepturi, inventore laudantium rerum vitae ad sed illum distinctio.
-    Rerum, aperiam illo? Perspiciatis cumque corporis ullam esse excepturi, doloribus nesciunt quasi aspernatur quam alias, dolores magni quo, voluptatibus molestiae! Praesentium accusantium ipsam, ullam explicabo iste itaque. Iure, blanditiis maxime!</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, explicabo numquam, unde, id ad voluptate deserunt ipsam sequi porro quam quas asperiores est et! Placeat maxime rerum ullam molestiae tenetur.
-    Accusantium dolore voluptates sed hic iusto qui nostrum repellat molestiae ut assumenda sapiente doloribus excepturi quis totam placeat, esse ex omnis est illo saepe aut iste eaque quibusdam. Mollitia, obcaecati?
-    Eligendi, modi, quos commodi pariatur totam quis voluptas assumenda id officiis reprehenderit quo fugiat eum blanditiis vitae? Eum, voluptates. Nulla exercitationem consequatur itaque iure nemo sed accusamus inventore ipsa perspiciatis.
-    Accusantium unde aliquam sint iure in voluptatibus temporibus odio consequatur suscipit sunt? Assumenda quisquam corporis consequatur nesciunt quia modi commodi recusandae praesentium soluta quis laboriosam iste ullam, qui ducimus sit!
-    Inventore, ipsam error eaque laborum cupiditate repudiandae vel harum ducimus dolores rerum? Voluptatibus maiores, necessitatibus sit amet adipisci error, inventore corrupti harum sunt dolor cupiditate voluptatum autem ullam quod magnam!
-    Nemo cupiditate excepturi impedit reiciendis nostrum dicta assumenda similique repellat natus quis repellendus tempore error blanditiis ullam minus, commodi minima molestias possimus ducimus sapiente necessitatibus unde. Voluptatibus animi accusantium id?
-    Labore maxime, dolorum enim hic deleniti velit nesciunt ut adipisci, necessitatibus quaerat obcaecati aperiam quos illum blanditiis! Possimus veritatis odio debitis. Amet numquam laborum voluptatem ducimus voluptas, quam harum perferendis.
-    Fugit, sit neque natus quisquam autem tempore accusamus. Facilis magnam iste nihil laboriosam, nisi quas amet deleniti nostrum ducimus qui corporis, provident molestias repudiandae? Voluptas hic quae in perferendis sed?
-    Sit distinctio culpa vero illum explicabo nesciunt quaerat, corporis perspiciatis aliquam non, eum quam. Sequi eligendi dicta, aperiam rem quas quae magnam labore, quaerat eum iste architecto fugit quos libero.
-    Perspiciatis facere consectetur ea veniam doloremque possimus laborum soluta esse aliquid amet. Culpa aut blanditiis magnam dolorum iste at aperiam laboriosam porro, inventore unde ipsum ut distinctio nihil voluptatum quos?
-    Culpa non totam doloremque nesciunt, minima nulla porro voluptatum aut labore deserunt dolore numquam, quo quam impedit. Impedit, atque commodi. Recusandae odit et rem, voluptatibus fuga vel sed accusantium exercitationem?
-    Laborum enim dolores eum recusandae iusto repellat nisi perspiciatis accusantium. Corporis architecto facere mollitia temporibus debitis fugit dolor maiores quis. Cum reiciendis facere nemo delectus repellendus distinctio similique consequatur fuga?
-    Similique voluptatibus inventore, voluptatum eos repellat eveniet aperiam amet possimus architecto soluta asperiores, maxime ex. Nam qui temporibus tempore, animi adipisci vero accusamus magnam natus in non eum. Ipsum, minima.
-    Odit aut nisi magnam ea quae voluptate ducimus, dolore accusamus dicta facere! Temporibus nemo harum doloribus dignissimos ipsa nostrum, assumenda nobis distinctio autem ex unde, impedit consequuntur quos, consequatur blanditiis!
-    Maxime aperiam vel ipsa illum in fuga asperiores nihil voluptatem aliquam voluptatum repudiandae nostrum qui molestiae sint quod sit laborum natus, nesciunt modi accusantium provident dignissimos, quia officiis. Hic, a?
-    Numquam doloremque, placeat aliquam quisquam quaerat non similique illo eius laudantium officiis reprehenderit ipsam natus dolor nostrum eum in! Reprehenderit, fuga omnis aperiam quasi cupiditate maiores a aspernatur sunt iste?
-    Dolorum odit praesentium, dignissimos incidunt non consectetur ex iste modi necessitatibus obcaecati labore sunt ducimus quis voluptatum maxime repellat saepe? Earum maiores quas ullam necessitatibus pariatur quis voluptatem nostrum eos?
-    Nostrum saepe nihil qui reiciendis ad natus quia? Temporibus laudantium ipsa molestias culpa eligendi asperiores enim, tempore incidunt corporis nisi nulla sint eveniet placeat repellendus inventore velit? Repellendus, at quo!
-    Excepturi perspiciatis at in quo. Dignissimos exercitationem tempora et optio facilis molestiae recusandae totam, accusamus, dicta enim, eaque necessitatibus eum. Eos, sequi enim adipisci delectus hic praesentium laudantium magni reprehenderit.
-    Explicabo illum exercitationem quo pariatur delectus qui voluptate possimus dolore quidem ducimus reiciendis, voluptatem minus quasi commodi doloribus iste ad. Eius fugiat impedit, natus quidem officia facere incidunt nemo sunt.
-    Atque maxime nulla earum modi sunt vel aperiam nesciunt reprehenderit voluptas vitae doloribus nostrum aliquam a hic ut quis illo dicta, ratione voluptates. Laborum inventore natus consequuntur eius sint velit.
-    Omnis inventore a optio saepe tempore magnam error? Earum, sit et mollitia cumque corporis nesciunt modi amet a minima quas libero nisi praesentium velit ea quasi magni animi! Quidem, neque?
-    Obcaecati hic, temporibus voluptate provident suscipit veniam consequuntur nam blanditiis mollitia iure earum ut. Delectus fugiat, voluptatibus nostrum, iure harum sequi enim laborum commodi aut officia asperiores sit ullam neque.
-    Aperiam fuga dolores odit atque, repudiandae aspernatur quisquam molestias soluta illo perspiciatis, ut ad quidem! Assumenda voluptatum magnam aliquam natus numquam veniam saepe deserunt, culpa quo error iure sunt odit!
-    Reiciendis illo iste molestias vel cum adipisci facilis neque unde facere architecto libero consectetur cumque laborum voluptatum tempore, ipsa beatae. Dolorem vel, debitis asperiores qui laborum eum animi quaerat cumque!
-    Impedit tenetur accusantium odit sint et ducimus consequuntur. Inventore accusamus at reprehenderit sint illum iusto omnis recusandae, maiores quam id quis libero aut necessitatibus porro fugiat, error iure ad quo.
-    Cupiditate esse voluptate magnam. Recusandae, maxime enim. Nesciunt voluptates provident minima voluptatibus, illum consequuntur veniam facere maxime eveniet fugiat tempore unde error. Deleniti sapiente, voluptate laboriosam at explicabo beatae quod!
-    Omnis magni ipsum at aspernatur corrupti quam dolores, accusantium perferendis cum numquam incidunt cupiditate tempore labore quo autem dolorum! Magni, molestias optio ut dolorem molestiae labore mollitia quia placeat expedita.
-    Placeat consequatur eos laborum facilis porro rem voluptatum dolorum quisquam fuga facere libero delectus iusto maxime deleniti sint fugit neque eaque explicabo, magnam culpa. Architecto accusantium iusto dolore sunt molestias!
-    Non, corporis voluptates est facilis nesciunt temporibus laudantium dicta beatae incidunt impedit necessitatibus neque hic, expedita quam voluptas itaque tenetur suscipit! Saepe deleniti accusamus voluptate a aliquid eaque! Consectetur, ex.
-    Harum unde soluta voluptate cumque sint blanditiis? Quam, quod qui laborum eum ut praesentium, eaque veritatis dignissimos molestias doloribus ab dolorum ratione reprehenderit maxime voluptatem officiis. Aspernatur ipsa aliquid saepe.
-    Deleniti, quisquam optio mollitia inventore fugiat totam consequuntur et! Dolorem velit omnis repudiandae veniam iusto sit sunt minima voluptate? Ad, quasi accusantium! Rem ullam corporis tempore ea voluptates deleniti sint.
-    In asperiores fuga nemo iusto facilis, repellat veritatis optio, consequuntur velit quaerat at excepturi sed adipisci. Ipsa, alias. Quidem tenetur unde blanditiis aspernatur commodi doloremque dicta exercitationem aut consequatur autem?
-    Eos quas, delectus eveniet maxime aliquam distinctio quos recusandae, ab, fugiat animi eligendi? Obcaecati aspernatur atque veritatis ipsam eligendi ut corrupti ad ex fugiat, explicabo dolor hic tenetur distinctio esse?
-    Est dolorum nesciunt nobis officiis atque nulla eos! Enim ipsam hic fugit corporis ad rerum, eos, natus accusantium distinctio aspernatur perferendis incidunt quibusdam temporibus, odit magni et modi dolorem perspiciatis.
-    Totam doloremque beatae aspernatur. Veritatis, facere ab voluptas cum qui, maxime quasi consectetur illum sit recusandae non autem impedit repellendus dolorum illo delectus corrupti? Officiis rerum quaerat eveniet alias explicabo.
-    Est velit mollitia ad officia repudiandae, vitae dolorum atque voluptatum voluptatibus aperiam esse perspiciatis architecto in sint iusto incidunt ipsa aspernatur nam temporibus, quidem deleniti? Minus velit ducimus nobis suscipit.
-    Voluptate, voluptatibus doloribus porro commodi aut saepe aspernatur sequi error nostrum neque dolore, incidunt quibusdam facere, praesentium reprehenderit? Harum, eveniet accusamus minima modi voluptate odit iure velit in reiciendis maxime.
-    Provident delectus eveniet, temporibus a nihil quasi aliquam voluptate dicta velit, voluptas incidunt harum repellendus fugiat vel odio soluta ipsam. Quam sunt labore officiis veritatis nihil in nisi sed officia!
-    Facere veniam est vero suscipit quaerat sed molestias exercitationem inventore cumque. Fuga, asperiores dolore quia maxime eveniet, nam ab, quos quis minima tempora inventore accusantium iure libero pariatur amet? Suscipit!</p>
+      <p>Sinds ik gestart ben als zelfstandige in bijberoep, heb ik de verantwoordelijkheid gekregen om projecten van begin tot eind zelfstandig te plannen en uit te voeren. 
+          Hoewel dit zeker uitdagend was, heb ik hierdoor een reeks nieuwe vaardigheden ontwikkeld, van projectmanagement tot probleemoplossend denken, die mijn werk aanzienlijk verrijkt hebben.</p>
+      
+      <p>Op deze ervaringen-pagina vindt u een overzicht van de verschillende projecten waaraan ik heb gewerkt en de ervaringen die ik in de loop van mijn carrière heb opgedaan. 
+          Dit geeft u een goed beeld van mijn groeipad en de resultaten die ik heb bereikt.</p>
+        <a href="ervaringen.html" class="btn btn-primary">Ervaringen</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Interesses en contact-->
+<div class="row container_padding justify-content-evenly">
+  <div class="col-sm-5 mb-3 mb-sm-0">
+    <div class="card">
+      <img src="img/time.gif" class="img-fluid card-img-top" alt="Franse Alpen">
+      <div class="card-body">
+        <h5 class="card-title">Wat doe ik in mijn vrije tijd?</h5>
+        <p>Net als iedereen heb ik ook passies buiten mijn professionele carrière. Na een lange werkdag vind ik ontspanning in gamen, waarbij ik mezelf graag verdiep in verschillende werelden en uitdagingen. 
+          Daarnaast trek ik in de wintermaanden graag de bergen in om te skiën. Een perfecte manier om te genieten van de natuur en tegelijkertijd actief bezig te zijn. 
+          Daarnaast houd ik me met veel plezier bezig met het kweken van groenten in mijn (iets te kleine) hobbytuint, waar ik met groene vingers mijn eigen stukje natuur verzorg.</p>
+        <a href="interesses.html" class="btn btn-primary">Interesses</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-5">
+    <div class="card">
+      <img src="img/Contact.png" class="img-fluid card-img-top" alt="Contactpagina">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p>Hebt u vragen, wil u meer weten over mijn werk of bent u geïnteresseerd in een mogelijke samenwerking? Je bent van harte welkom om contact met me op te nemen! Ik sta zeker open voor een gesprek.</p>
+        <p>Met mijn ervaring in zowel technische als creatieve projecten, ben ik altijd enthousiast om nieuwe uitdagingen aan te gaan en samen te werken aan innovatieve oplossingen. 
+            Of u nu een klein idee hebt of een groot project in gedachten, ik luister graag naar uw verhaal en kijk hoe we samen iets moois kunnen creëren.
+            Vul het contactformulier hieronder in of stuur me een bericht via e-mail of telefoon. Ik hoor graag van u!</p>
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!--Footer-->
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active active_page" aria-current="page" href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+</ul>
+
+<hr>
+
+
+    
 
   </div>
   <script src="js/bootstrap.bundle.min.js"></script>
