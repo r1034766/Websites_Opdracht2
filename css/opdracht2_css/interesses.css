@@ -17,6 +17,44 @@ body {
 }
 
 
+/*banner*/
+.banner {
+    background-image: url(/img/Banner_interesses_bijgesneden.jpg);
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+}
+.carousel-inner {
+    border-radius: 7px;
+}
+
+
+/*accordeon*/
+.accordion-item {
+    background-color: #c4dad2;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #c4dad2;
+}
+.accordion-button {
+    background-color: #c4dad2;
+}
+.accordion-body {
+    background-color: #e9efec;
+}
+
+
+
+/*buttons & knop naar boven*/
+.btn {
+    background-color: #98C1D9;
+    color: black;
+    border-color: #98C1D9;
+}
+.btn:hover {
+    background-color: #6a9c89;
+    border-color: #6a9c89;
+}
+
 
 /*footer*/
 .sm_icon {

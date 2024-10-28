@@ -20,6 +20,7 @@ body {
 /*buttons & knop naar boven*/
 .btn {
     background-color: #98C1D9;
+    border-color: #98C1D9;
     color: black;
 }
 .btn:hover {
