@@ -1,6 +1,13 @@
 body {
     background-color: #F0F8FF;
 }
+.container_welkom {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*navbar*/
 .navbar_logo {
     width: 100px;
 }
@@ -15,6 +22,8 @@ body {
 .active_page {
     font-weight: 600;
 }
+
+
 .test {
     max-width: 50%;
 }
@@ -24,4 +33,27 @@ body {
 .pasfoto_width {
     width: 50%;
     align-self: center;
+}
+.card {
+    background-color: #e9efec;
+}
+.card_foto {
+    padding: 10px;
+}
+
+/*buttons & knop naar boven*/
+.btn {
+    background-color: #98C1D9;
+    color: black;
+}
+.btn:hover {
+    background-color: #6a9c89;
+    border-color: #6a9c89;
+}
+
+
+/*footer*/
+.sm_icon {
+    width: 40px;
+    padding-right: 5px;
 }

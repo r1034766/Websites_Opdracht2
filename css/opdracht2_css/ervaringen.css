@@ -15,3 +15,21 @@ body {
 .active_page {
     font-weight: 600;
 }
+
+
+/*buttons & knop naar boven*/
+.btn {
+    background-color: #98C1D9;
+    color: black;
+}
+.btn:hover {
+    background-color: #6a9c89;
+    border-color: #6a9c89;
+}
+
+
+/*footer*/
+.sm_icon {
+    width: 40px;
+    padding-right: 5px;
+}

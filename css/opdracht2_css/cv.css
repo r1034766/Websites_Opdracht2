@@ -15,3 +15,40 @@ body {
 .active_page {
     font-weight: 600;
 }
+
+video {
+    border-radius: 20px;
+}
+
+
+/*accordeon*/
+.accordion-item {
+    background-color: #c4dad2;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #c4dad2;
+}
+.accordion-button {
+    background-color: #c4dad2;
+}
+.accordion-body {
+    background-color: #e9efec;
+}
+
+
+/*buttons & knop naar boven*/
+.btn {
+    background-color: #98C1D9;
+    color: black;
+}
+.btn:hover {
+    background-color: #6a9c89;
+    border-color: #6a9c89;
+}
+
+
+/*footer*/
+.sm_icon {
+    width: 40px;
+    padding-right: 5px;
+}

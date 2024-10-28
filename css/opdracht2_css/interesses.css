@@ -15,3 +15,11 @@ body {
 .active_page {
     font-weight: 600;
 }
+
+
+
+/*footer*/
+.sm_icon {
+    width: 40px;
+    padding-right: 5px;
+}
