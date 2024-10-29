@@ -6,6 +6,7 @@
     <link rel="icon" href="Img/favicon.ico" type="image/icon" sizes="16x16">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/opdracht2_css/cv.css">
+    <link rel="stylesheet" href="css/opdracht2_css/lightbox.css">
     <title>Curriculum Vitae</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
       <!--nav bar-->
       <nav class="navbar navbar-expand-lg bg-body-tertiary" id="top_page">
         <div class="container-fluid navbar_bckgrnd">
-          <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="Logo" class="navbar_logo"></a>
+          <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt="Logo" class="navbar_logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,8 +43,12 @@
 
       <h1 class="text-center py-5">Curriculum Vitae</h1>
 
-      <div class="row-8 text-center pb-5">
-        <video src="img/Timeling geanimeerd.mp4" class="object-fit-contain img-fluid" autoplay></video>
+      <!--Geanimeerde tijdlijn + foto-->
+      <div class="row pb-5 text-center">
+        <div class="col">
+          <h3>Tijdlijn</h3>
+          <video src="img/Timeling geanimeerd.mp4" class="object-fit-contain img-fluid" autoplay></video>
+        </div>
       </div>
 
       <div class="row justify-content-center pb-5">
@@ -53,10 +58,36 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="h1 accordion-button" id="vakantiewerk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Vakantiewerk
+                    Talenkennis
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <div>
+                      <div class="row"> 
+                        <div class="col-md-2">
+                          <img src="img/pasfoto2.jpg" alt="Foto van Kristof" class="img-fluid">
+                        </div>                        
+                        <div class="col-md-10">
+                          <h5>Nederlands</h5>
+                          <p>Zeer goed (Moedertaal).</p>
+                          <h5>Engels</h5>
+                          <p>Zeer goed. Zowel lezen als schrijven is geen enkel probleem.</p>
+                          <h5>Frans</h5>
+                          <p>Basis kennis. Simpele conversaties voeren en interacties met klanten en collega's is geen probleem.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="h1 accordion-button" id="vakantiewerk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Vakantiewerk
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <div>
                       <h3>Vakantiewerk bij Beltech bvba</h3>
@@ -80,11 +111,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="h1 accordion-button collapsed" id="secundair" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  <button class="h1 accordion-button collapsed" id="secundair" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                     Secundair onderwijs
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <h3>Elektromechanica in het secundair onderwijs</h3>
                     <div class="row">
@@ -104,11 +135,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="h1 accordion-button collapsed" id="hogeschool" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  <button class="h1 accordion-button collapsed" id="hogeschool" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                     Hogeschool
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <h3>Elektromechanica op de Hogeschool</h3>
                     <div class="row">
@@ -129,11 +160,11 @@
 
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="h1 accordion-button collapsed" id="jobs" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  <button class="h1 accordion-button collapsed" id="jobs" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
                     Carrière
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <!--siemens-->
                     <div class="pb-5">
@@ -203,6 +234,140 @@
                         </div>
                         <div class="col-md-2">
                           <a href="https://thomasmore.be/nl" target="_blank"><img src="Img/thomasmore.jpg" alt="Logo Thomas More" title="Thomas More" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="h1 accordion-button" id="vakantiewerk" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
+                    Skills
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <div>
+                      <div class="row"> 
+
+                        <div class="row justify-content-center">
+                          <div class="col-md-2">
+                            <img src="/img/icons8-html-144.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                          </div>
+                          <div class="col-md-2">
+                            <img src="/img/icons8-css-144.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                          </div>
+                          <div class="col-md-2">
+                            <img src="/img/icons8-javascript-144.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                          </div>
+                        </div>
+                        
+                        <div id="myModal" class="modal">
+                          <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
+                        
+                            <div class="mySlides">
+                              <div class="numbertext">1 / 6</div>
+                              <img src="/img/icons8-html-480.png" alt="HTML Logo">
+                            </div>
+                        
+                            <div class="mySlides">
+                              <div class="numbertext">2 / 6</div>
+                              <img src="/img/icons8-css-480.png" alt="CSS Logo">
+                            </div>
+                        
+                            <div class="mySlides">
+                              <div class="numbertext">3 / 6</div>
+                              <img src="/img/icons8-javascript-480.png" alt="JavaScript Logo">
+                            </div>
+                            
+                            <div class="mySlides">
+                              <div class="numbertext">4 / 6</div>
+                              <img src="/img/icons8-unreal-engine-480.png" alt="Unreal Engine Logo">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="/img/icons8-blender-480.png" alt="Blender Logo">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">6 / 6</div>
+                                <img src="/img/icons8-bootstrap-480.png" alt="Bootstrap Logo">
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                            <div class="caption-container">
+                              <p id="caption"></p>
+                            </div>
+                            
+
+                            <div class="row">
+                              <div class="col">
+                                <img class="demo cursor" src="/img/icons8-html-144.png" style="width:100%" onclick="currentSlide(1)" alt="HTML">
+                              </div>
+                              <div class="col">
+                                <img class="demo cursor" src="/img/icons8-css-144.png" style="width:100%" onclick="currentSlide(2)" alt="CSS">
+                              </div>
+                              <div class="col">
+                                <img class="demo cursor" src="/img/icons8-javascript-144.png" style="width:100%" onclick="currentSlide(3)" alt="JavaScript">
+                              </div>
+                              <div class="col">
+                                <img class="demo cursor" src="/img/icons8-unreal-engine-150.png" style="width:100%" onclick="currentSlide(4)" alt="Unreal Engine">
+                              </div>
+                              <div class="col">
+                                  <img class="demo cursor" src="/img/icons8-blender-144.png" style="width:100%" onclick="currentSlide(5)" alt="Blender">
+                              </div>
+                              <div class="col">
+                                  <img class="demo cursor" src="/img/icons8-bootstrap-144.png" style="width:100%" onclick="currentSlide(6)" alt="Bootstrap">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!--Ik heb het script hieronder moeten zetten omdat ik steeds errors kreeg die ik niet opgelost kreeg, hierdoor kon ik geen aparte .js-file maken en die linken met deze HTML-file-->
+                        <script>
+                        function openModal() {
+                          document.getElementById("myModal").style.display = "block";
+                        }
+                        
+                        function closeModal() {
+                          document.getElementById("myModal").style.display = "none";
+                        }
+                        
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+                        
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+                        
+                        function showSlides(n) {
+                          var i;
+                          var slides = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("demo");
+                          var captionText = document.getElementById("caption");
+                          if (n > slides.length) {slideIndex = 1}
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                              slides[i].style.display = "none";
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                              dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";
+                          dots[slideIndex-1].className += " active";
+                          captionText.innerHTML = dots[slideIndex-1].alt;
+                        }
+                        </script>
+
                         </div>
                       </div>
                     </div>
