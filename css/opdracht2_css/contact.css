@@ -22,11 +22,22 @@ body {
     padding-bottom: 50px;
 }
 .formulier_achtergrond {
-    background-color: lightblue;
+    background-color: #c4dad2;
     padding: 20px;
     border-radius: 10px;
 }
 
+
+/*buttons & knop naar boven*/
+.btn {
+    background-color: #98C1D9;
+    border-color: #98C1D9;
+    color: black;
+}
+.btn:hover {
+    background-color: #6a9c89;
+    border-color: #6a9c89;
+}
 
 
 /*footer*/
